@@ -1,0 +1,7 @@
+quarkus:
+  spring-cloud-config:
+    enabled: true
+    fail-fast: true
+    url: http://localhost:8889
+  application:
+    name: client
